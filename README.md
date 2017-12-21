@@ -27,6 +27,10 @@
     
 8. Thats it! Open any browser and go to the url http://localhost:5000 to see the app running.
 
+9. You can deactivate the virtual environment by using the command
+
+     >deactivate
+
 # Sub tasks of the application
 1. http://localhost:5000/ prints a simple Hello world.
 
