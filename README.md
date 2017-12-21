@@ -22,6 +22,7 @@
     >activate
    
 7. Then run the app inside the Task1 folder
+
     Task1>python task1.py
     
 8. Thats it! Open any browser and go to the url http://localhost:5000 to see the app running.
