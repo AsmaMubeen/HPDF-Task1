@@ -21,7 +21,7 @@ def authors():
 
 @app.route('/setcookie')
 def setcookie():
-	response = make_response('Setting cookie..')
+	response = make_response('Setting cookies..')
 	response.set_cookie('name','Asma')
 	response.set_cookie('age','20')
 	return response
