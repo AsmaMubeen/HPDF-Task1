@@ -11,12 +11,14 @@
 
 3. Make a directory for the project
 
-4. Create a virtual environment inside the directory using the command:  >virtualenv venv
+4. Create a virtual environment inside the directory using the command:  
+     >virtualenv venv
 
 5. Clone or download the repository inside venv 
 
 6. Change directory into Scripts folder of venv and activate the virtual environment 
     >cd scripts
+    
     >activate
    
 7. Then run the app inside the Task1 folder
