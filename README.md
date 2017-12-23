@@ -23,7 +23,7 @@
    
 7. Then run the app inside the Task1 folder
 
-    Task1>python task1.py
+    /Task1>python task1.py
     
 8. Thats it! Open any browser and go to the url http://localhost:5000 to see the app running.
 
@@ -38,7 +38,7 @@
    and https://jsonplaceholder.typicode.com/posts
    
 3. http://localhost:5000/setcookie sets two cookies:
-   name=<your-first-name> and age=<your-age>.
+   name= your-first-name and age= your-age.
    
 4. http://localhost:5000/getcookies displays the set key value pairs
 
