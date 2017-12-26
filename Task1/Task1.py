@@ -47,20 +47,20 @@ def denyrequest():
 
 
 @app.route('/html')
-def renderhtml():
-	return render_template('Hasura.html')
+def renderhtml(arg = None):
+	return render_template('Hasura.html, arg = arg')
 
 
 @app.route('/input')
-def textboxbinput():
-	return render_template('TextInput.html')
+def textboxbinput(arg = None):
+	return render_template('TextInput.html, arg = arg')
 
 @app.route('/output',methods = ['POST','GET'])
 def log():
 	if request.method == 'POST':
 		data = request.form['input']
 		print(data, file=sys.stdout)
-	return 'Received data: '+ data +'<br>Logged the received data to stdout'
+		return 'Received data: '+ data +'<br>Logged the received data to stdout'
 
 
 
